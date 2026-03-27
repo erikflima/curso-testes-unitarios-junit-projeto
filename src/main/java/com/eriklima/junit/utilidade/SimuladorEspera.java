@@ -1,5 +1,4 @@
 package com.eriklima.junit.utilidade;
-
 import java.time.Duration;
 
 public class SimuladorEspera {
@@ -8,9 +7,13 @@ public class SimuladorEspera {
 
     }
 
-    public static void esperar(Duration duration) {
+    public static void esperar( Duration duration ) {
+
         try {
-            Thread.sleep(duration.toMillis());
+
+            System.out.println( "\n Metodo aguardando...." );
+            Thread.sleep( duration.toMillis() );
+
         } catch (Exception ignored) {
 
         }
