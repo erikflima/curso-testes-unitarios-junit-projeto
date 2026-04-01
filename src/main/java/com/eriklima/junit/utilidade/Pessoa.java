@@ -13,7 +13,7 @@ public class Pessoa {
         return nome;
     }
 
-    public void setNome(String nome) {
+    public void setNome(String nome)    {
         this.nome = nome;
     }
 
@@ -21,7 +21,7 @@ public class Pessoa {
         return sobrenome;
     }
 
-    public void setSobrenome(String sobrenome) {
+    public void setSobrenome(String sobrenome)    {
         this.sobrenome = sobrenome;
     }
 
