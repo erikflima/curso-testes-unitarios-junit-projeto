@@ -29,4 +29,5 @@ class SaudacaoUtilTest {
         //Verifica se ao chamar o metodo  "SaudacaoUtil.saudar(0)" nenhuma exception vai ocorrer.
         assertDoesNotThrow( () -> SaudacaoUtil.saudar(0) );
     }
+
 }
